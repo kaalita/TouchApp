@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5423BE2A16B1FB81007E42E8 /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5423BE2916B1FB81007E42E8 /* CouchCocoa.framework */; };
+		5423BE2C16B1FB8C007E42E8 /* TouchDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5423BE2B16B1FB8C007E42E8 /* TouchDB.framework */; };
+		542B0AF616B200FE00C15316 /* WBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 542B0AF516B200FE00C15316 /* WBImage.m */; };
+		546E576616A96716009F4F97 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546E576516A96716009F4F97 /* SettingsViewController.m */; };
+		546E577516A9969F009F4F97 /* CouchSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 546E577416A9969F009F4F97 /* CouchSettings.m */; };
+		549BB82F169B0E1900C9C883 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549BB82E169B0E1900C9C883 /* UIKit.framework */; };
+		549BB831169B0E1900C9C883 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549BB830169B0E1900C9C883 /* Foundation.framework */; };
+		549BB833169B0E1900C9C883 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549BB832169B0E1900C9C883 /* CoreGraphics.framework */; };
+		549BB839169B0E1900C9C883 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 549BB837169B0E1900C9C883 /* InfoPlist.strings */; };
+		549BB83B169B0E1900C9C883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 549BB83A169B0E1900C9C883 /* main.m */; };
+		549BB83F169B0E1900C9C883 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 549BB83E169B0E1900C9C883 /* AppDelegate.m */; };
+		549BB841169B0E1900C9C883 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 549BB840169B0E1900C9C883 /* Default.png */; };
+		549BB843169B0E1900C9C883 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 549BB842169B0E1900C9C883 /* Default@2x.png */; };
+		549BB845169B0E1900C9C883 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 549BB844169B0E1900C9C883 /* Default-568h@2x.png */; };
+		549BB92A169DAAA000C9C883 /* MemoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549BB929169DAAA000C9C883 /* MemoriesViewController.m */; };
+		549BB94E169DAD2F00C9C883 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549BB94D169DAD2F00C9C883 /* CFNetwork.framework */; };
+		549BB950169DAD3A00C9C883 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549BB94F169DAD3A00C9C883 /* Security.framework */; };
+		549BB952169DAD4700C9C883 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549BB951169DAD4700C9C883 /* SystemConfiguration.framework */; };
+		549BB954169DAD5500C9C883 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 549BB953169DAD5500C9C883 /* libsqlite3.dylib */; };
+		549BB956169DAD6200C9C883 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 549BB955169DAD6200C9C883 /* libz.dylib */; };
+		549BB96D169DB3CA00C9C883 /* Memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 549BB96C169DB3CA00C9C883 /* Memory.m */; };
+		549BB974169DB5C900C9C883 /* Memories.m in Sources */ = {isa = PBXBuildFile; fileRef = 549BB973169DB5C900C9C883 /* Memories.m */; };
+		549BB977169DC88000C9C883 /* AddMemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549BB976169DC88000C9C883 /* AddMemoryViewController.m */; };
+		54E692A516A5C75500104E73 /* MemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E692A416A5C75500104E73 /* MemoryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5423BE2916B1FB81007E42E8 /* CouchCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchCocoa.framework; sourceTree = "<group>"; };
+		5423BE2B16B1FB8C007E42E8 /* TouchDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TouchDB.framework; sourceTree = "<group>"; };
+		542B0AF416B200FE00C15316 /* WBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBImage.h; path = "3rd party/WBImage.h"; sourceTree = "<group>"; };
+		542B0AF516B200FE00C15316 /* WBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBImage.m; path = "3rd party/WBImage.m"; sourceTree = "<group>"; };
+		546E576416A96716009F4F97 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		546E576516A96716009F4F97 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		546E577316A9969F009F4F97 /* CouchSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouchSettings.h; sourceTree = "<group>"; };
+		546E577416A9969F009F4F97 /* CouchSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouchSettings.m; sourceTree = "<group>"; };
+		549BB82A169B0E1900C9C883 /* TouchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		549BB82E169B0E1900C9C883 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		549BB830169B0E1900C9C883 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		549BB832169B0E1900C9C883 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		549BB836169B0E1900C9C883 /* TouchApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchApp-Info.plist"; sourceTree = "<group>"; };
+		549BB838169B0E1900C9C883 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		549BB83A169B0E1900C9C883 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		549BB83C169B0E1900C9C883 /* TouchApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchApp-Prefix.pch"; sourceTree = "<group>"; };
+		549BB83D169B0E1900C9C883 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		549BB83E169B0E1900C9C883 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		549BB840169B0E1900C9C883 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		549BB842169B0E1900C9C883 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		549BB844169B0E1900C9C883 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		549BB928169DAAA000C9C883 /* MemoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoriesViewController.h; sourceTree = "<group>"; };
+		549BB929169DAAA000C9C883 /* MemoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoriesViewController.m; sourceTree = "<group>"; };
+		549BB94D169DAD2F00C9C883 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		549BB94F169DAD3A00C9C883 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		549BB951169DAD4700C9C883 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		549BB953169DAD5500C9C883 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		549BB955169DAD6200C9C883 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		549BB96B169DB3CA00C9C883 /* Memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Memory.h; path = Model/Memory.h; sourceTree = "<group>"; };
+		549BB96C169DB3CA00C9C883 /* Memory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Memory.m; path = Model/Memory.m; sourceTree = "<group>"; };
+		549BB972169DB5C900C9C883 /* Memories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Memories.h; path = Model/Memories.h; sourceTree = "<group>"; };
+		549BB973169DB5C900C9C883 /* Memories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Memories.m; path = Model/Memories.m; sourceTree = "<group>"; };
+		549BB975169DC88000C9C883 /* AddMemoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMemoryViewController.h; sourceTree = "<group>"; };
+		549BB976169DC88000C9C883 /* AddMemoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMemoryViewController.m; sourceTree = "<group>"; };
+		54E692A316A5C75400104E73 /* MemoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryViewController.h; sourceTree = "<group>"; };
+		54E692A416A5C75500104E73 /* MemoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		549BB827169B0E1900C9C883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549BB956169DAD6200C9C883 /* libz.dylib in Frameworks */,
+				549BB954169DAD5500C9C883 /* libsqlite3.dylib in Frameworks */,
+				549BB952169DAD4700C9C883 /* SystemConfiguration.framework in Frameworks */,
+				549BB950169DAD3A00C9C883 /* Security.framework in Frameworks */,
+				549BB94E169DAD2F00C9C883 /* CFNetwork.framework in Frameworks */,
+				549BB82F169B0E1900C9C883 /* UIKit.framework in Frameworks */,
+				549BB831169B0E1900C9C883 /* Foundation.framework in Frameworks */,
+				549BB833169B0E1900C9C883 /* CoreGraphics.framework in Frameworks */,
+				5423BE2A16B1FB81007E42E8 /* CouchCocoa.framework in Frameworks */,
+				5423BE2C16B1FB8C007E42E8 /* TouchDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		542B0AF216B200D400C15316 /* 3rd party */ = {
+			isa = PBXGroup;
+			children = (
+				542B0AF416B200FE00C15316 /* WBImage.h */,
+				542B0AF516B200FE00C15316 /* WBImage.m */,
+			);
+			name = "3rd party";
+			sourceTree = "<group>";
+		};
+		549BB81F169B0E1900C9C883 = {
+			isa = PBXGroup;
+			children = (
+				549BB834169B0E1900C9C883 /* TouchApp */,
+				549BB82D169B0E1900C9C883 /* Frameworks */,
+				549BB82B169B0E1900C9C883 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		549BB82B169B0E1900C9C883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				549BB82A169B0E1900C9C883 /* TouchApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		549BB82D169B0E1900C9C883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5423BE2B16B1FB8C007E42E8 /* TouchDB.framework */,
+				5423BE2916B1FB81007E42E8 /* CouchCocoa.framework */,
+				549BB955169DAD6200C9C883 /* libz.dylib */,
+				549BB953169DAD5500C9C883 /* libsqlite3.dylib */,
+				549BB951169DAD4700C9C883 /* SystemConfiguration.framework */,
+				549BB94F169DAD3A00C9C883 /* Security.framework */,
+				549BB94D169DAD2F00C9C883 /* CFNetwork.framework */,
+				549BB82E169B0E1900C9C883 /* UIKit.framework */,
+				549BB830169B0E1900C9C883 /* Foundation.framework */,
+				549BB832169B0E1900C9C883 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		549BB834169B0E1900C9C883 /* TouchApp */ = {
+			isa = PBXGroup;
+			children = (
+				542B0AF216B200D400C15316 /* 3rd party */,
+				549BB96A169DB39300C9C883 /* Model */,
+				549BB83D169B0E1900C9C883 /* AppDelegate.h */,
+				549BB83E169B0E1900C9C883 /* AppDelegate.m */,
+				549BB835169B0E1900C9C883 /* Supporting Files */,
+				549BB928169DAAA000C9C883 /* MemoriesViewController.h */,
+				549BB929169DAAA000C9C883 /* MemoriesViewController.m */,
+				546E576416A96716009F4F97 /* SettingsViewController.h */,
+				546E576516A96716009F4F97 /* SettingsViewController.m */,
+				54E692A316A5C75400104E73 /* MemoryViewController.h */,
+				54E692A416A5C75500104E73 /* MemoryViewController.m */,
+				549BB975169DC88000C9C883 /* AddMemoryViewController.h */,
+				549BB976169DC88000C9C883 /* AddMemoryViewController.m */,
+				546E577316A9969F009F4F97 /* CouchSettings.h */,
+				546E577416A9969F009F4F97 /* CouchSettings.m */,
+			);
+			path = TouchApp;
+			sourceTree = "<group>";
+		};
+		549BB835169B0E1900C9C883 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				549BB836169B0E1900C9C883 /* TouchApp-Info.plist */,
+				549BB837169B0E1900C9C883 /* InfoPlist.strings */,
+				549BB83A169B0E1900C9C883 /* main.m */,
+				549BB83C169B0E1900C9C883 /* TouchApp-Prefix.pch */,
+				549BB840169B0E1900C9C883 /* Default.png */,
+				549BB842169B0E1900C9C883 /* Default@2x.png */,
+				549BB844169B0E1900C9C883 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		549BB96A169DB39300C9C883 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				549BB96B169DB3CA00C9C883 /* Memory.h */,
+				549BB96C169DB3CA00C9C883 /* Memory.m */,
+				549BB972169DB5C900C9C883 /* Memories.h */,
+				549BB973169DB5C900C9C883 /* Memories.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		549BB829169B0E1900C9C883 /* TouchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549BB848169B0E1900C9C883 /* Build configuration list for PBXNativeTarget "TouchApp" */;
+			buildPhases = (
+				549BB826169B0E1900C9C883 /* Sources */,
+				549BB827169B0E1900C9C883 /* Frameworks */,
+				549BB828169B0E1900C9C883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchApp;
+			productName = TouchApp;
+			productReference = 549BB82A169B0E1900C9C883 /* TouchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		549BB821169B0E1900C9C883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Katrin Apel";
+			};
+			buildConfigurationList = 549BB824169B0E1900C9C883 /* Build configuration list for PBXProject "TouchApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 549BB81F169B0E1900C9C883;
+			productRefGroup = 549BB82B169B0E1900C9C883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				549BB829169B0E1900C9C883 /* TouchApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		549BB828169B0E1900C9C883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549BB839169B0E1900C9C883 /* InfoPlist.strings in Resources */,
+				549BB841169B0E1900C9C883 /* Default.png in Resources */,
+				549BB843169B0E1900C9C883 /* Default@2x.png in Resources */,
+				549BB845169B0E1900C9C883 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		549BB826169B0E1900C9C883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549BB83B169B0E1900C9C883 /* main.m in Sources */,
+				549BB83F169B0E1900C9C883 /* AppDelegate.m in Sources */,
+				549BB92A169DAAA000C9C883 /* MemoriesViewController.m in Sources */,
+				549BB96D169DB3CA00C9C883 /* Memory.m in Sources */,
+				549BB974169DB5C900C9C883 /* Memories.m in Sources */,
+				549BB977169DC88000C9C883 /* AddMemoryViewController.m in Sources */,
+				54E692A516A5C75500104E73 /* MemoryViewController.m in Sources */,
+				546E576616A96716009F4F97 /* SettingsViewController.m in Sources */,
+				546E577516A9969F009F4F97 /* CouchSettings.m in Sources */,
+				542B0AF616B200FE00C15316 /* WBImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		549BB837169B0E1900C9C883 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				549BB838169B0E1900C9C883 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		549BB846169B0E1900C9C883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		549BB847169B0E1900C9C883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		549BB849169B0E1900C9C883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchApp/TouchApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "TouchApp/TouchApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		549BB84A169B0E1900C9C883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchApp/TouchApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "TouchApp/TouchApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		549BB824169B0E1900C9C883 /* Build configuration list for PBXProject "TouchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549BB846169B0E1900C9C883 /* Debug */,
+				549BB847169B0E1900C9C883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549BB848169B0E1900C9C883 /* Build configuration list for PBXNativeTarget "TouchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549BB849169B0E1900C9C883 /* Debug */,
+				549BB84A169B0E1900C9C883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 549BB821169B0E1900C9C883 /* Project object */;
+}
